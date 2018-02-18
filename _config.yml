@@ -90,38 +90,38 @@ preload:
     as: image
     type: image/svg+xml
     name: icons
-  - href: /img/logos/Facebook.svg
+  - href: img/logos/facebook.svg
     as: image
     type: image/svg+xml
     name: Facebook
-  - href: /img/logos/twitter.svg
+  - href: img/logos/twitter.svg
     as: image
     type: image/svg+xml
     name: Twitter
-  - href: /img/logos/Google_plus.svg
+  - href: img/logos/google-plus.svg
     as: image
     type: image/svg+xml
     name: Google+
-  - href: /img/logos/Reddit.svg
+  - href: img/logos/reddit.svg
     as: image
     type: image/svg+xml
     name: Reddit
-  - href: /img/logos/linkedin.svg
+  - href: img/logos/linkedin.svg
     as: image
     type: image/svg+xml
     name: LinkedIn
-  - href: /img/logos/gmail.svg
+  - href: img/logos/gmail.svg
     as: image
     type: image/svg+xml
     name: Gmail
 appicons:
-  - src: /img/favicon.svg
+  - src: img/favicon.svg
     sizes: any
     type: image/svg+xml
-  - src: /img/icon-512.png
+  - src: img/icon-512.png
     sizes: 512x512
     type: image/png
-  - src: /img/icon-192.png
+  - src: img/icon-192.png
     sizes: 192x192
     type: image/png
 screenshots:
