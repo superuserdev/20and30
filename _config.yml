@@ -12,7 +12,7 @@ viewport: width=device-width
 robots: 'follow,index'
 referrer: origin-when-cross-origin
 manifest: /manifest.json
-tiles-config: /broswerconfig.xml
+tiles-config: /browserconfig.xml
 service_worker: /service-worker.js
 og-type: website
 description: This group isn't just for doing some things; it's for doing some AWESOME things. Hiking, trail running, live music, the arts, nightlife, community events- if any of this sounds interesting, join us!
