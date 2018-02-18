@@ -7,7 +7,7 @@ lang: en
 dir: ltr
 charset: utf-8
 paginate: 5
-paginate_path: "/posts/page-:num/"
+paginate_path: "/page-:num/"
 viewport: width=device-width
 robots: 'follow,index'
 referrer: origin-when-cross-origin
@@ -131,7 +131,7 @@ defaults:
     values:
       layout: post
       author: Chris Zuber
-      permalink: /posts/:categories/:year/:month/:day/:title/
+      permalink: /:categories/:year/:month/:day/:title/
       comments: true
       ads: false
   - scope:
@@ -139,7 +139,7 @@ defaults:
     values:
       layout: post
       author: Chris Zuber
-      permalink: /posts/:categories/:year/:month/:day/:title/
+      permalink: /:categories/:year/:month/:day/:title/
       comments: false
       ads: false
 plugins:
