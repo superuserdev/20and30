@@ -2,3 +2,9 @@
 '@context': 'http://schema.org'
 name: 20 & 30-Somethings Doing Some Things
 url: 'https://www.meetup.com/20-30-Somethings-Doing-Some-Things'
+logo:
+  '@type': ImageObject
+  url: /img/logo.png
+  width: 552
+  height: 414
+  encodingFormat: png
