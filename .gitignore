@@ -5,6 +5,9 @@
 /_site/
 /.jekyll-metadata
 .buildconfig
+*.min.*
+*.map
+/img/icons.svg
 #################
 ## Eclipse
 #################
