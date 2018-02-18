@@ -54,10 +54,10 @@ icons: '/img/icons.svg'
 theme-color: '#009688'
 background-color: '#242424'
 discus-identifier: 20and30
-# google-analytics: UA-112855471-1
+google-analytics: UA-114369281-1
 # ad-sense: ca-pub-7757418455191610
-# webmaster-verifications:
-#  google: 0cMX_-aKH-pe1wQXGDlK833KE3-kN5V7y3eaywoCXdk
+webmaster-verifications:
+  google: kgiFvPbMybum6IJwL2MgvOxQ_gAbdgqz0BhC8HaOAUg
 #  bing: B4BA0BE1916BB0AE8AFAC3ACC826DF57
 scripts:
   development:
