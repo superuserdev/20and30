@@ -21,7 +21,7 @@ description: |-
   any of this sounds interesting, join us!
 mobile-web-app-capable: true
 publisher: 'https://plus.google.com/113117303106986445610'
-canonical: 'https://shgysk8zer0.github.io'
+# canonical: 'https://shgysk8zer0.github.io'
 contextmenu: nav-menu
 body-class: 'background-primary grid border-box cursor-default font-main'
 feature-detect:
