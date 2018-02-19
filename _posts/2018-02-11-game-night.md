@@ -1,5 +1,5 @@
 ---
-title: Game Night at Rooke and Rogue
+title: Game Night at Rook and Rogue
 date: 2018-02-11 22:00
 updated: 2018-02-18 14:50
 author: Chris Zuber
