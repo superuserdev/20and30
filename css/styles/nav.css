@@ -1,9 +1,7 @@
 body > nav {
 	font-size: 1.5rem;
-	background-image: linear-gradient(#444, #222);
-	border-radius: 0 0 1rem 1rem;
+	background: var(--accent-color);
 	grid-area: nav;
-	border-top: 0.2rem solid var(--accent-color);
 	height: var(--nav-height);
 	line-height: var(--nav-height);
 }
@@ -17,6 +15,10 @@ body > nav > * {
 	justify-items: center;
 }
 
+body > nav > :not(:last-child) {
+	border-right: 0.1em solid var(--border-color);
+}
+
 body > nav a > * {
 	margin: auto;
 }
@@ -26,19 +28,5 @@ body > nav .mobile-hidden {
 }
 
 body > nav > *:first-child {
-	border-radius: 0 0 0 1rem;
 	flex-grow: 1;
 }
-
-body > nav > *:last-child {
-	border-radius: 0 0 1rem 0;
-}
-
-body > nav > *:not(:last-child) {
-	border-right: 2px solid var(--accent-color);
-}
-
-body > nav > *:hover {
-	background-image: linear-gradient(#222, #444);
-}
-
