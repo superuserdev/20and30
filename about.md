@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-imgur: 'https://imgur.com/sGps4QZ'
+imgur: 'https://imgur.com/WdgTRtt'
 index: true
 ---
 # {{ site.title }}
