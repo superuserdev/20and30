@@ -1,11 +1,12 @@
 <dialog id="about-dialog" class="fadeInUp animation-speed-normal animation-ease-in animation-fill-backwards">
 	<header class="sticky top background-primary color-alt clearfix">
-		<a href="{{ '/contact/' | absolute_url  }}" class="color-inherit float-left center" role="button" title="Contact Page">
-			{% include icon.html icon='address-book' %}
-		</a>
+		<!-- <a href="{{ '/contact/' | absolute_url  }}" class="color-inherit float-left center" role="button" title="Contact Page"> -->
+		<!-- 	{% include icon.html icon='address-book' %} -->
+		<!-- </a> -->
 		<button data-close="#about-dialog" class="font-main filter-shadow float-right">
 			{% include icon.html icon='close' %}
 		</button>
 	</header>
 	<blockquote>{{ site.description }}</blockquote>
+	<a href="{{ '/about/' | absolute_url }}" role="button">View about page</a>
 </dialog>
