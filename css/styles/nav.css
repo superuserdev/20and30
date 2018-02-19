@@ -1,6 +1,6 @@
 body > nav {
 	font-size: 1.5rem;
-	background: var(--accent-color);
+	background-color: var(--accent-color);
 	grid-area: nav;
 	height: var(--nav-height);
 	line-height: var(--nav-height);
