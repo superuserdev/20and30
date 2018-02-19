@@ -59,12 +59,14 @@ had been there before and done some work that had temporarily made the area more
 easily passable, but the fix would end up doing more harm than good with the rain
 that would inevitably come in the winter.
 
-{% include imgur.html url=page.imgur %}
+{% include imgur.html url='https://imgur.com/qFLRBrc' %}
 
 We started by setting up a pulley system that we would use to yank giant boulders
 from off the trail to form a solid base that wouldn't wash away so easily. We were
 given very strong warnings about the tension that could build in the line and
 were forbidden to step between the cables.
+
+{% include imgur.html url='https://imgur.com/w27BOpR' %}
 
 Despite having the benefit of leverage granted by the tools we were using, progress
 was slow. It must have taken more than a dozen cranks of the handle to move a
