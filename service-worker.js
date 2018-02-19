@@ -1,6 +1,6 @@
 // 2017-11-02 16:19
 const config = {
-	version: 'shgysk8zer0@github.io',
+	version: '20and30',
 	caches: [
 		// Main assets
 		'/',
