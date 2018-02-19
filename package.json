@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shgysk8zer0/20and30.git"
+    "url": "git+https://github.com/superuserdev/20and30.git"
   },
   "author": "Chris Zuber <chris@chriszuber.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/shgysk8zer0/20and30/issues"
+    "url": "https://github.com/superuserdev/20and30/issues"
   },
-  "homepage": "https://shgysk8zer0.github.io",
+  "homepage": "https://20and30.netlify.com/",
   "dependencies": {
     "node-purist": "github:shgysk8zer0/node-purist"
   }
