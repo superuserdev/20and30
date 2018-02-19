@@ -4,14 +4,15 @@ permalink: events.ics
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-{% for file in site.data.events %}BEGIN:VEVENT{% assign event=file[1] %}
+{% for file in site.data.events %}
+BEGIN:VEVENT{% assign event=file[1] %}
 DTSTAMP;TZID={{ site.timezone | default: '/US/Pacific' }}:{{ site.time | date: '%Y%m%dT%H%M%S' }}
-ORGANIZER:CN={{ event.organizer.name | default: site.author }}
+ORGANIZER:CN={{ event.organizer.name | default: site.author }}{% if event.organizer.email %}:MAILTO:{{ event.organizer.email }}{% endif %}
 DTSTART;TZID{{ site.timezone | default: '/US/Pacific' }}:{{ event.startDate | date: '%Y%m%dT%H%M%S' }}
 DTEND;TZID={{ site.timezone | default: '/US/Pacific' }}:{{ event.endDate | date: '%Y%m%dT%H%M%S' }}
 SUMMARY:{{ event.name }}
-DESCRIPTION;ENCODING=QUOTED-PRINTABLE:{{ event.description | newlines_to_br }}{% if event.url %}
-LOCATION:{{ event.location.streetAddress }} {{ event.location.addressLocality}}, {{ event.location.addressRegion }}
+DESCRIPTION;ENCODING=QUOTED-PRINTABLE:{{ event.description | newlines_to_br }}
+LOCATION:{{ event.location.streetAddress }} {{ event.location.addressLocality}}, {{ event.location.addressRegion }}{% if event.url %}
 URL:{{ event.url }}{% endif %}
 END:VEVENT{% endfor %}
 END:VCALENDAR
