@@ -7,8 +7,7 @@ twitter,img/logos/twitter.svg
 google+,img/logos/google-plus.svg
 youtube,img/logos/youtube.svg
 reddit,img/logos/reddit.svg
-stackoverflow,img/logos/stackoverflow.svg
-upwork,img/logos/upwork.svg
+meetup,img/logos/meetup.svg
 creative-commons,img/logos/creative-commons-by-sa.svg
 location,img/adwaita-icons/actions/mark-location.svg
 call-start,img/adwaita-icons/actions/call-start.svg
@@ -22,7 +21,6 @@ share,img/adwaita-icons/places/folder-publicshare.svg
 close,img/adwaita-icons/actions/window-close.svg
 pin,img/adwaita-icons/actions/view-pin.svg
 recent,img/adwaita-icons/actions/document-open-recent.svg
-engineering,img/adwaita-icons/categories/applications-engineering.svg
 avatar-default,img/adwaita-icons/status/avatar-default.svg
 link,img/octicons/lib/svg/link.svg
 link-external,img/octicons/lib/svg/link-external.svg
@@ -45,9 +43,3 @@ print,img/adwaita-icons/actions/document-print.svg
 pause,img/adwaita-icons/actions/media-playback-pause.svg
 play,img/adwaita-icons/actions/media-playback-start.svg
 stop,img/adwaita-icons/actions/media-playback-stop.svg
-git,img/logos/git.svg
-html5,img/logos/html5.svg
-css3,img/logos/css3.svg
-javascript,img/logos/javascript.svg
-mysql,img/logos/mysql.svg
-freecodecamp,img/logos/freecodecamp.svg
