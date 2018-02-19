@@ -13,7 +13,7 @@ tags:
 - games
 - Bellingham
 - Rooke and Rogue
-imgur: https://i.imgur.com/mFwktNB.png
+imgur: https://imgur.com/WdgTRtt
 pinned: true
 ---
 {% include imgur.html url='https://i.imgur.com/mrFzSMX.png' %}
@@ -30,7 +30,7 @@ mile hike at Lookout Mountain. It wasn't very eventful and I ran out of time bef
 reaching my destination, but it was still nice to be out and enjoy a day with
 some decent, though cold, weather.
 
-6 o'clock was drawing close and I was the first to arrive at the [Rooke & Rogue](https://www.rookandrogue.com/).
+6 o'clock was drawing close and I was the first to arrive at the [Rook & Rogue](https://www.rookandrogue.com/).
 I checked the RSVP list again and estimated that there would be about 5 this time,
 so I got one of the smaller tables. It wasn't long until Travis arrived and we
 chatted for a bit waiting for the others. Both of us were somewhat disappointed
