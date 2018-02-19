@@ -11,7 +11,7 @@ ORGANIZER:CN={{ event.organizer.name | default: site.author }}{% if event.organi
 DTSTART;TZID{{ site.timezone | default: '/US/Pacific' }}:{{ event.startDate | date: '%Y%m%dT%H%M%S' }}
 DTEND;TZID={{ site.timezone | default: '/US/Pacific' }}:{{ event.endDate | date: '%Y%m%dT%H%M%S' }}
 SUMMARY:{{ event.name }}
-DESCRIPTION;ENCODING=QUOTED-PRINTABLE:{{ event.description | newlines_to_br }}
+DESCRIPTION;ENCODING=QUOTED-PRINTABLE:{{ event.description | strip_newlines }}
 LOCATION:{{ event.location.streetAddress }} {{ event.location.addressLocality}}, {{ event.location.addressRegion }}{% if event.url %}
 URL:{{ event.url }}{% endif %}
 END:VEVENT{% endfor %}
