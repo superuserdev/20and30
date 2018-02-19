@@ -5,10 +5,10 @@ permalink: events.ics
 BEGIN:VCALENDAR
 VERSION:2.0
 {% for file in site.data.events %}BEGIN:VEVENT{% assign event=file[1] %}
-DTSTAMP:{{ site.time | date: '%Y%m%dT%H%M%SZ' }}
+DTSTAMP;TZID=/US/Pacific:{{ site.time | date: '%Y%m%dT%H%M%SZ' }}
 ORGANIZER:CN={{ event.organizer.name | default: site.author }}
-DTSTART:{{ event.startDate | date: '%Y%m%dT%H%M%SZ' }}
-DTEND:{{ event.endDate | date: '%Y%m%dT%H%M%SZ' }}
+DTSTART;TZID=/US/Pacific:{{ event.startDate | date: '%Y%m%dT%H%M%SZ' }}
+DTEND;TZID=/US/Pacific:{{ event.endDate | date: '%Y%m%dT%H%M%SZ' }}
 SUMMARY:{{ event.name }}
 DESCRIPTION;ENCODING=QUOTED-PRINTABLE:{{ event.description | newlines_to_br }}{% if event.url %}
 LOCATION:{{ event.location.streetAddress }} {{ event.location.addressLocality}}, {{ event.location.addressRegion }}
