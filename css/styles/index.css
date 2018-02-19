@@ -97,6 +97,10 @@ pre.highlight, code.highlight {
 	background: var(--accent-color);
 }
 
+.logo.float-left {
+	margin-right: 0.8em;
+}
+
 @media (max-width: 800px) {
 	.mobile-hidden {
 		display: none;
