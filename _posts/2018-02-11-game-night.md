@@ -5,7 +5,7 @@ updated: 2018-02-18 14:50
 author: Chris Zuber
 description: Small turnout for our bi-weekly game night at the Rooke and Rogue
 category: games
-keywords:
+tags:
 - cards
 - card games
 - cards against humanity

@@ -6,7 +6,7 @@ updated: 2018-02-18 17:00
 imgur: 'https://imgur.com/qFLRBrc'
 category: volunteer
 description: A day moving ridiculously large rocks with the WTA
-keywords:
+tags:
 - trail maintenance
 - WTA
 - Washington Trail Association
