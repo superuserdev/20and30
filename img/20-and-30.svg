@@ -1,0 +1,101 @@
+<svg version="1.1" viewBox="0 0 552 414" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="T">
+<rect width="8" height="9" ry="3.899" fill="#fff" stroke="#111" stroke-weight="0.3"/>
+</symbol>
+<symbol id="B">
+<use transform="scale(.4)" xlink:href="#T"/>
+</symbol>
+<symbol id="I">
+<circle r="17" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<circle r="3"/>
+</symbol>
+<style type="text/css">.fil0 {fill:#1F1A17}
+    .fil34 {fill:#F8C300}
+    .fil1 {fill:#645E4C}
+    .fil2 {fill:#7A7153}
+    .fil3 {fill:#877C54}
+    .fil4 {fill:#928554}
+    .fil5 {fill:#998B53}
+    .fil6 {fill:#A08F51}
+    .fil7 {fill:#A7944F}
+    .fil8 {fill:#AD984D}
+    .fil9 {fill:#B19B4C}
+    .fil10 {fill:#B69F4A}
+    .fil11 {fill:#BBA248}
+    .fil12 {fill:#BFA446}
+    .fil13 {fill:#C2A644}
+    .fil14 {fill:#C7A941}
+    .fil15 {fill:#CAAB3F}
+    .fil16 {fill:#CCAC3C}
+    .fil17 {fill:#CFAE39}
+    .fil18 {fill:#D2AF35}
+    .fil19 {fill:#D6B130}
+    .fil20 {fill:#DAB42B}
+    .fil21 {fill:#DCB526}
+    .fil22 {fill:#DEB621}
+    .fil23 {fill:#E2B816}
+    .fil24 {fill:#E4BA0A}
+    .fil25 {fill:#E6BB00}
+    .fil26 {fill:#E9BC00}
+    .fil27 {fill:#EBBD00}
+    .fil28 {fill:#EDBE00}
+    .fil29 {fill:#EEBE00}
+    .fil30 {fill:#F1C000}
+    .fil31 {fill:#F3C000}
+    .fil32 {fill:#F4C100}
+    .fil33 {fill:#F6C200}</style>
+</defs>
+<path d="m84.36 415.71c-22.381-30.06-38.629-58.07-57.658-87.01 27.756 0.95775 57.493 7.8566 86.959 13.942-8.7074-11.7-17.415-23.4-26.122-35.1 15.727-2.1608 21.582-4.9323 49.162-7.6703-10.565-21.311-28.11-31.455-42.628-46.44 0 0 27.582-0.87723 27.069-1.3367-6.307-5.6457-72.61-78.452-69.154-75.572 38.606 13.287 53.029 23.832 101.14 44.897-20.396-50.644-31.633-95.182-44.897-141.07 33.656 25.323 67.067 48.195 101.31 79.346 3.4453-4.9765 2.4585-65.889 1.0025-59.484-0.77275 3.3993 38.521 54.714 43.443 55.808 11.602-33.032 20.44-57.286 21.388-56.477-0.13104 0.31449 5.5172 53.464 13.367 63.494 45.694-16.387 56.633-45.54 91.565-57.145-4.9013 11.251-12.81 20.831-14.704 33.752 40.659-21.945 81.317-43.889 121.98-65.834-36.424 52.949-77.024 100.72-98.583 172.1 16.51-3e-3 34.817-4.5002 52.466-7.352-10.815 12.192-21.973 26.097-33.418 41.438 48.564-19.555 110.49-48.656 139.35-54.137-53.457 35.034-93.97 67.715-118.03 97.404 40.986 6.4417 93.27-5.676 122.64 19.849-45.708 14.744-90.204 29.972-122.76 49.978 7.3253 7.5401 14.651 15.08 21.976 22.62h-366.86z" fill="#fdfe00"/>
+<g stroke="#000">
+<path d="m405.99 418.79-2.0051-63.077-30.193-105.46-101.83 58.705 22.452 63.581-6.87 46.905z" fill="#dc0160" stroke-width="1.6"/>
+<path d="m375.9 257.63 18.814-178.08-10.98 0.05712 7.4716 8.9168 0.815-7.7184-4.4578-0.2003" fill="none" stroke-width="3.2"/>
+<path d="m130.66 360.03 124.35-77.58" fill="none" stroke-width="3.2"/>
+<path d="m159.91 415.71h18.38c0.33418 0-106.77-127.21-106.77-127.21l-12.051 6.3801z" fill="#8e250d" stroke-width="1px"/>
+<path d="m62.469 293.28 9.0415-4.7867 5.5179-7.6654 0.50127-10.193-8.6887-21.22-15.874-17.043-14.537-12.198-8.6887-1.6709-2.3393 5.514-3.1747-0.66836-1.1696 9.6912-4.6785-1.3367-1.6709 2.5064-3.0076-1.6709-0.16709 3.1747l-13.532-4.16 8.5216 11.36-8.5216 2 2.5064 10.861 21.053 30.745v3.1747l8.6887 4.5114 25.398 0.50127z" fill="#feffbc" stroke-width="1px"/>
+<path d="m351.36 307.54c12.483-21.89 18.178-50.919 23.21-66.026-1.1393-18.737-5.6471-35.614-17.648-47.041-10.043-9.5618-25.795-11.702-39.589-13.118-25.409 1.0246-37.078-0.78909-66.107 13.348-11.798 10.929-12.894 22.162-15.181 38.639-0.68526 8.7797 4.2108 16.949 4.726 25.993 10.75 17.71 18.151 29.492 31.192 49.623 11.28 10.436 25.478 10.476 48.087 11.106 17.415-5.3053 18.423-6.7475 31.31-12.524z" fill="#fff" stroke-width="1px"/>
+<path d="m254.8 193.03c12.288-5.75 25.06-10.532 37.978-10.61-7.5758-29.71-36.714-21.335-68.173-8.8613-2.1041-2.6932 24.514 12.148 30.195 19.472z" fill="#fff" stroke-width="1px"/>
+</g>
+<use x="315" y="180" xlink:href="#I"/>
+<use x="245" y="200" xlink:href="#I"/>
+<path d="m339.53 281-0.50127-28.907c-3.9324-40.922-10.22-39.094-19.547-51.47-37.57-5.3284-73.065 26.271-70.89 36.627 9.6828 9.1651 19.208 18.383 30.719 26.938 1.2248 9.5767 1.8415 18.14 1.1815 24.575 5.9075 3.0364 11.815 5.3117 17.723 7.089 13.938 1.3114 18.977-0.34316 27.884-0.7089 9.8385-12.892 7.8184-14.282 13.432-14.144z"/>
+<g transform="rotate(-34.877)">
+<use x="118.72" y="332.92" xlink:href="#T"/>
+<use x="124.72" y="335.2" xlink:href="#T"/>
+<use x="130.87" y="339.06" xlink:href="#T"/>
+<use x="137.94" y="343.99" xlink:href="#T"/>
+<use x="111.85" y="331.32" xlink:href="#T"/>
+<use x="104.25" y="329.52" xlink:href="#T"/>
+<use x="96.469" y="328.41" xlink:href="#T"/>
+<use x="89.403" y="328.65" xlink:href="#T"/>
+<use x="82.283" y="329.19" xlink:href="#T"/>
+<use x="74.55" y="330.61" xlink:href="#T"/>
+<use x="68.487" y="333.2" xlink:href="#T"/>
+</g>
+<g transform="matrix(.68795 -.72576 .72576 .68795 -25.906 25.659)">
+<use x="72.815" y="432.2" xlink:href="#B"/>
+<use x="70.014" y="434.32" xlink:href="#B"/>
+<use x="67.352" y="436.82" xlink:href="#B"/>
+<use x="63.934" y="438.86" xlink:href="#B"/>
+<use x="60.577" y="437.73" xlink:href="#B"/>
+<use x="57.258" y="437.87" xlink:href="#B"/>
+<use x="54.042" y="438.79" xlink:href="#B"/>
+<use x="50.637" y="439.5" xlink:href="#B"/>
+<use x="47.388" y="439.82" xlink:href="#B"/>
+<use x="43.647" y="438.73" xlink:href="#B"/>
+<use x="40.608" y="436.35" xlink:href="#B"/>
+<use x="38.017" y="434.55" xlink:href="#B"/>
+<use x="35.374" y="431.8" xlink:href="#B"/>
+<use x="32.648" y="428.62" xlink:href="#B"/>
+<use x="29.616" y="426.36" xlink:href="#B"/>
+<use x="27.476" y="424.13" xlink:href="#B"/>
+<use x="25.304" y="421.31" xlink:href="#B"/>
+<use x="22.83" y="418.39" xlink:href="#B"/>
+<use x="21.128" y="414.37" xlink:href="#B"/>
+<use x="19.645" y="410.02" xlink:href="#B"/>
+<use x="17.535" y="406.14" xlink:href="#B"/>
+<use x="16.728" y="404.4" xlink:href="#B"/>
+</g>
+<text x="25.612619" y="402.52014" fill="#000000" font-family="sans-serif" font-size="72.625px" letter-spacing="0px" stroke-width="1.8156" word-spacing="0px" style="line-height:45.3908844px" xml:space="preserve"><tspan x="25.612619" y="402.52014" dominant-baseline="auto" fill="#ffffff" font-family="acme" font-size="72.625px" letter-spacing="0px" stroke="#000000" stroke-width="1.8156" word-spacing="0px" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;line-height:45.3908844px;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal">ALL THE THINGS!</tspan></text>
+<text x="137.22597" y="73.080727" fill="#000000" font-family="sans-serif" font-size="66.297px" letter-spacing="0px" stroke-width="1.6574" word-spacing="0px" style="line-height:41.43585205px" xml:space="preserve"><tspan x="137.22597" y="73.080727" dominant-baseline="auto" fill="#ffffff" font-family="acme" font-size="66.297px" letter-spacing="0px" stroke="#000000" stroke-width="1.6574" word-spacing="0px" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;line-height:41.43585205px;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal">LET'S DO</tspan></text>
+</svg>
