@@ -13,7 +13,7 @@ tags:
 - games
 - Bellingham
 - Rooke and Rogue
-imgur: https://imgur.com/WdgTRtt
+imgur: 'https://i.imgur.com/8wBGMl5.png'
 pinned: true
 ---
 {% include imgur.html url='https://i.imgur.com/mrFzSMX.png' %}
