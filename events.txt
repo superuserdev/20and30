@@ -4,8 +4,11 @@ permalink: events.ics
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
+PRODID:{{ site.url }}
+METHOD:PUBLISH
 {% for file in site.data.events %}
 BEGIN:VEVENT{% assign event=file[1] %}
+UID:{{ file[0] }}@{{ site.url | replace: 'https://', '' | replace: 'http://', ''}}
 DTSTAMP;TZID={{ site.timezone | default: '/US/Pacific' }}:{{ site.time | date: '%Y%m%dT%H%M%S' }}
 ORGANIZER:CN={{ event.organizer.name | default: site.author }}{% if event.organizer.email %}:MAILTO:{{ event.organizer.email }}{% endif %}
 DTSTART;TZID{{ site.timezone | default: '/US/Pacific' }}:{{ event.startDate | date: '%Y%m%dT%H%M%S' }}
