@@ -1,24 +1,69 @@
+{% assign footer-linkclass="icon current-color filter-shadow-dark icon-twirl transition-speed-normal transition-overshoot transition-transform" %}
 <footer id="contact" class="color-alt no-text-decoration optimize-speed" role="contentinfo">
-	{% if site.repository %}
-		{% assign octo-class="icon current-color filter-shadow-dark big icon-twirl transition-speed-normal transition-overshoot transition-transform" %}
-		<a href="https://github.com/{{ site.repository.username }}" title="{{ site.repository.username }}'s GitHub" target="_blank" rel="noopener external" class="inline-block color-inherit">
-			{% include icon.html icon="mark-github" class=octo-class %}
-		</a>
-		<a href="{{ site.repository.url }}" title="{{ site.repository.title }} on GitHub" target="_blank" rel="noopener external" class="inline-block color-inherit">
-			{% include icon.html icon="repo" class=octo-class %}
-		</a>
-		<a href="{{ site.repository.url }}/issues" title="Open issues for {{ site.repository.title }} on Github" target="_blank" rel="noopener external" class="inline-block color-inherit">
-			{% include icon.html icon="issue-opened" class=octo-class %}
-		</a>
-	{% endif %}
-	{% if site.feed %}
-		<a href="{{ site.feed.url | absolute_url}}" title="Subscribe to feed" target="_blank" class="inline-block color-inherit">
-			{% include icon.html icon="rss" class=octo-class %}
-		</a>
-	{% endif %}
-	<ul class="footer-links">
-		<li><a href="{{ '/contact/' | absolute_url }}" class="color-inherit">Contact</a></li>
-	</ul>
+	<div class="clearfix">
+		<ul class="float-left">
+			{% if site.repository %}
+					<li>
+						<a href="https://github.com/{{ site.repository.username }}" title="{{ site.repository.username }}'s GitHub" target="_blank" rel="noopener external" class="inline-block color-inherit">
+							{% include icon.html icon="mark-github" class=footer-linkclass %}
+							Creator's GitHub profile
+						</a>
+					</li>
+					<li>
+						<a href="{{ site.repository.url }}" title="{{ site.repository.title }} on GitHub" target="_blank" rel="noopener external" class="inline-block color-inherit">
+							{% include icon.html icon="repo" class=footer-linkclass %}
+							View on GitHub
+						</a>
+					</li>
+					<li>
+						<a href="{{ site.repository.url }}/issues" title="Open issues for {{ site.repository.title }} on Github" target="_blank" rel="noopener external" class="inline-block color-inherit">
+							{% include icon.html icon="issue-opened" class=footer-linkclass %}
+							View open issues
+						</a>
+					</li>
+			{% endif %}
+			{% if site.feed %}
+				<li>
+					<a href="{{ site.feed.url | absolute_url}}" title="Subscribe to feed" target="_blank" class="inline-block color-inherit">
+						{% include icon.html icon="rss" class=footer-linkclass %}
+						Subscribe to RSS feed
+					</a>
+				</li>
+			{% endif %}
+		</ul>
+		<ul class="footer-links float-left">
+			<li>
+				<a href="{{ '/about/' | absolute_url }}" class="color-inherit">
+					{% include icon.html icon='info' class=footer-linkclass %}
+					About
+				</a>
+			</li>
+			<li>
+				<a href="https://www.meetup.com/20-30-Somethings-Doing-Some-Things/" rel="noopener external">
+					{% include icon.html icon='meetup' class=footer-linkclass %}
+					Meetup
+				</a>
+			</li>
+			<!-- <li> -->
+			<!-- 	<a href="https://www.meetup.com/20-30-Somethings-Doing-Some-Things/" rel="noopener external"> -->
+			<!-- 		{% include icon.html icon='twitter' class=footer-linkclass %} -->
+			<!-- 		Twitter -->
+			<!-- 	</a> -->
+			<!-- </li> -->
+			<!-- <li> -->
+			<!-- 	<a href="https://www.meetup.com/20-30-Somethings-Doing-Some-Things/" rel="noopener external"> -->
+			<!-- 		{% include icon.html icon='facebook' class=footer-linkclass %} -->
+			<!-- 		Facebook -->
+			<!-- 	</a> -->
+			<!-- </li> -->
+			<!-- <li> -->
+			<!-- 	<a href="https://www.meetup.com/20-30-Somethings-Doing-Some-Things/" rel="noopener external"> -->
+			<!-- 		{% include icon.html icon='google+' class=footer-linkclass %} -->
+			<!-- 		Google+ -->
+			<!-- 	</a> -->
+			<!-- </li> -->
+		</ul>
+	</div>
 	<hr />
-	<p>©<time itemprop="copyrightYear"> {{ 'now' | date: "%Y" }}</time></p>
+	<p>©<time itemprop="copyrightYear"> {{ 'now' | date: "%Y" }}</time> <a href="{{ site.url }}">{{ site.title }}</a></p>
 </footer>
