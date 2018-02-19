@@ -26,7 +26,6 @@ const config = {
 		'/img/logos/gmail.svg',
 
 		// Fonts
-		'/fonts/acme.woff',
 		'/fonts/Alice.woff',
 		'/fonts/roboto.woff',
 		'/fonts/ubuntu.woff2',
