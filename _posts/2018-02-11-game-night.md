@@ -3,7 +3,7 @@ title: Game Night at Rook and Rogue
 date: 2018-02-11 22:00
 updated: 2018-02-18 14:50
 author: Chris Zuber
-description: Small turnout for our bi-weekly game night at the Rooke and Rogue
+description: Small turnout for our bi-weekly game night at the Rook and Rogue
 category: games
 tags:
 - cards
@@ -12,7 +12,7 @@ tags:
 - pubs
 - games
 - Bellingham
-- Rooke and Rogue
+- Rook and Rogue
 imgur: 'https://i.imgur.com/8wBGMl5.png'
 pinned: true
 ---
