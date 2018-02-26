@@ -4,7 +4,7 @@ author: Chris Zuber
 date: 2018-02-25 21:00
 category: games
 pinned: true
-description: Sometimes, small groups have their advantages
+description: Sometimes, small groups have their advantages. Also, we played Domination.
 tags:
 - cards
 - card games
@@ -13,7 +13,7 @@ tags:
 - games
 - Bellingham
 - Rook and Rogue
-imgur: 'https://imgur.com/QET3iUj'
+imgur: 'https://imgur.com/aZBPLdA'
 ---
 I was once again early for the bi-weekly game night at the [Rook & Rogue](https://www.rookandrogue.com/).
 This time, I had purpose in arriving before everybody else, since I wanted to
