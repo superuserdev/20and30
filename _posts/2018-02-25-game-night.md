@@ -1,5 +1,5 @@
 ---
-title: Game Night at Rook and Rouge
+title: Game Night at Rook and Rouge (Domination)
 author: Chris Zuber
 date: 2018-02-25 21:00
 category: games
