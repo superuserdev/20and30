@@ -3,6 +3,7 @@ title: Game Night at Rook and Rouge (Domination)
 author: Chris Zuber
 date: 2018-02-25 21:00
 category: games
+pinned: true
 description: Sometimes, small groups have their advantages
 tags:
 - cards
