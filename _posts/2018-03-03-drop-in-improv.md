@@ -3,6 +3,7 @@ title: Drop-In Improv Class
 author: Chris Zuber
 date: '2018-03-03 13:00'
 updated: '2018-03-04 12:40'
+category: improv
 description: My first Drop-In Improv Class at The Upfront Theatre
 keywords:
 - improv
@@ -14,7 +15,7 @@ imgur: 'https://imgur.com/VCRXJAf'
 The first Saturday of every month is [Drop-In Improv Class](https://theupfront.com/classes/drop-in/)
 with [The Upfront Theatre](https://theupfront.com).
 
-![drop-in class banner](https://i.imgur.com/3gozQEz.png)
+{% include imgur.html url='https://imgur.com/3gozQEz' alt='drop-in class banner' %}
 
 This was my first time attending the class, and it was slightly more along the
 lines of a typical class than I had expected. By that, I mean that despite being
@@ -48,7 +49,8 @@ rather frequently in improv because, pretty much by definition, you are not prep
 for what happens.
 
 ## Structured Improv
-![The class](https://i.imgur.com/VCRXJAf.png)
+{% include imgur.html url='https://imgur.com/VCRXJAf' alt='The class' %}
+
 Then, the real games / lessons began.
 
 I cannot remember the name of the game, but it was simply repeating the actions
