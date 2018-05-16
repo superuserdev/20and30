@@ -1,6 +1,7 @@
 author: Chris Zuber
 title: 20 &amp; 30-Somethings Doing Some Things
 url: 'https://20and30.netlify.com'
+timezone: America/Los_Angeles
 markdown: kramdown
 version: 0.1.0
 lang: en
